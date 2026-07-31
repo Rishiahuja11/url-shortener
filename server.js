@@ -37,7 +37,9 @@ seedAdmin();
 
 const app = express();
 app.get("/sw.js", (req, res) => {
-  res.setHeader("Content-Type", "application/javascript"); res.sendFile(__dirname + "/sw.js"));
+  res.setHeader("Content-Type", "application/javascript");
+  res.sendFile(path.join(__dirname, "sw.js"));
+});
 app.use(express.static(__dirname));
 app.set('trust proxy', 1);
 
