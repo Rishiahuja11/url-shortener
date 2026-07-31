@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": 1785472219332,
+      "email": "ahujarishi741@gmail.com",
+      "password": "$2b$10$xdBa.pO0GtQuUABp.iOVY.pIGjIA82jJvZ.X90p3kae8kP7a7Yqm6",
+      "role": "admin"
+    }
+  ],
+  "links": [
+    {
+      "id": 1785484839508,
+      "shortCode": "8gawh2",
+      "originalUrl": "https://executor.smp45.qzz.io",
+      "clicks": 1,
+      "earnings": 0.002,
+      "userId": 1785472219332
+    }
+  ]
+}

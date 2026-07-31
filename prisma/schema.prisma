@@ -1,0 +1,27 @@
+datasource db {
+  provider = "sqlite"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  password  String
+  role      String   @default("user")
+  links     Link[]
+  createdAt DateTime @default(now())
+}
+
+model Link {
+  id          Int      @id @default(autoincrement())
+  shortCode   String   @unique
+  originalUrl String
+  clicks      Int      @default(0)
+  earnings    Float    @default(0.0)
+  userId      Int
+  user        User     @relation(fields: [userId], references: [id])
+  createdAt   DateTime @default(now())
+}
