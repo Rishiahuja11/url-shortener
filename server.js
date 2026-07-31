@@ -61,6 +61,7 @@ function layout(title, content) {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <script src="https://pl30620850.effectivecpmnetwork.com/e8/4e/b0/e84eb0cf2345328fef1637242f4de322.js"></script>
     <script>(function(s){s.dataset.zone='11468479',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script'))))</script>
     <script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
     <meta name="monetag" content="ac30aa276bb7dab3c2f3ba743ce3b23e">
@@ -100,6 +101,7 @@ function layout(title, content) {
   }, { once: true });
 </script>
 
+<script src="https://pl30620852.effectivecpmnetwork.com/16/de/b4/16deb4907056ab8059afdf743e9b9688.js"></script>
 </body>
     </html>
   `;
@@ -110,6 +112,7 @@ app.get('/login', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <script src="https://pl30620850.effectivecpmnetwork.com/e8/4e/b0/e84eb0cf2345328fef1637242f4de322.js"></script>
     <script>(function(s){s.dataset.zone='11468479',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script'))))</script>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -147,6 +150,7 @@ app.get('/login', (req, res) => {
   }, { once: true });
 </script>
 
+<script src="https://pl30620852.effectivecpmnetwork.com/16/de/b4/16deb4907056ab8059afdf743e9b9688.js"></script>
 </body>
     </html>
   `);
@@ -169,6 +173,7 @@ app.get('/signup', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <script src="https://pl30620850.effectivecpmnetwork.com/e8/4e/b0/e84eb0cf2345328fef1637242f4de322.js"></script>
     <script>(function(s){s.dataset.zone='11468479',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script'))))</script>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -206,6 +211,7 @@ app.get('/signup', (req, res) => {
   }, { once: true });
 </script>
 
+<script src="https://pl30620852.effectivecpmnetwork.com/16/de/b4/16deb4907056ab8059afdf743e9b9688.js"></script>
 </body>
     </html>
   `);
@@ -319,6 +325,7 @@ app.get('/s/:code', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <script src="https://pl30620850.effectivecpmnetwork.com/e8/4e/b0/e84eb0cf2345328fef1637242f4de322.js"></script>
     <script>(function(s){s.dataset.zone='11468479',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script'))))</script>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -338,20 +345,22 @@ app.get('/s/:code', (req, res) => {
 
         
         
+        
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full my-4">
           <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex flex-col items-center justify-center min-h-[220px] w-full text-center">
-            <p class="text-slate-400 text-xs mb-3">Advertisement Space</p>
-            <a href="https://omg10.com/4/11468566" target="_blank" rel="nofollow" class="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white text-sm font-bold py-3 px-6 rounded-xl shadow-lg w-full max-w-[240px] transition-all">
-              👉 Tap Here To Continue
+            <p class="text-slate-400 text-xs mb-3">Advertisement</p>
+            <a href="https://www.effectivecpmnetwork.com/g0qbk2xi2r?key=0cda79afefd34549ee96c56b3d1a5a4d" target="_blank" rel="nofollow" class="bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-sm font-bold py-3 px-6 rounded-xl shadow-lg w-full max-w-[240px] transition-all">
+              👉 Click Here To Continue
             </a>
           </div>
           <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex flex-col items-center justify-center min-h-[220px] w-full text-center">
-            <p class="text-slate-400 text-xs mb-3">Advertisement Space</p>
-            <a href="https://omg10.com/4/11468566" target="_blank" rel="nofollow" class="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white text-sm font-bold py-3 px-6 rounded-xl shadow-lg w-full max-w-[240px] transition-all">
-              👉 Tap Here To Continue
+            <p class="text-slate-400 text-xs mb-3">Advertisement</p>
+            <a href="https://www.effectivecpmnetwork.com/g0qbk2xi2r?key=0cda79afefd34549ee96c56b3d1a5a4d" target="_blank" rel="nofollow" class="bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-sm font-bold py-3 px-6 rounded-xl shadow-lg w-full max-w-[240px] transition-all">
+              👉 Click Here To Continue
             </a>
           </div>
         </div>
+
 
       </div>
 
@@ -420,6 +429,7 @@ app.get('/s/:code', (req, res) => {
   }, { once: true });
 </script>
 
+<script src="https://pl30620852.effectivecpmnetwork.com/16/de/b4/16deb4907056ab8059afdf743e9b9688.js"></script>
 </body>
     </html>
   `);
@@ -434,6 +444,7 @@ app.get('/s/:code/step2', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <script src="https://pl30620850.effectivecpmnetwork.com/e8/4e/b0/e84eb0cf2345328fef1637242f4de322.js"></script>
     <script>(function(s){s.dataset.zone='11468479',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script'))))</script>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -453,20 +464,22 @@ app.get('/s/:code/step2', (req, res) => {
 
         
         
+        
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full my-4">
           <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex flex-col items-center justify-center min-h-[220px] w-full text-center">
-            <p class="text-slate-400 text-xs mb-3">Advertisement Space</p>
-            <a href="https://omg10.com/4/11468566" target="_blank" rel="nofollow" class="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white text-sm font-bold py-3 px-6 rounded-xl shadow-lg w-full max-w-[240px] transition-all">
-              👉 Tap Here To Continue
+            <p class="text-slate-400 text-xs mb-3">Advertisement</p>
+            <a href="https://www.effectivecpmnetwork.com/g0qbk2xi2r?key=0cda79afefd34549ee96c56b3d1a5a4d" target="_blank" rel="nofollow" class="bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-sm font-bold py-3 px-6 rounded-xl shadow-lg w-full max-w-[240px] transition-all">
+              👉 Click Here To Continue
             </a>
           </div>
           <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex flex-col items-center justify-center min-h-[220px] w-full text-center">
-            <p class="text-slate-400 text-xs mb-3">Advertisement Space</p>
-            <a href="https://omg10.com/4/11468566" target="_blank" rel="nofollow" class="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white text-sm font-bold py-3 px-6 rounded-xl shadow-lg w-full max-w-[240px] transition-all">
-              👉 Tap Here To Continue
+            <p class="text-slate-400 text-xs mb-3">Advertisement</p>
+            <a href="https://www.effectivecpmnetwork.com/g0qbk2xi2r?key=0cda79afefd34549ee96c56b3d1a5a4d" target="_blank" rel="nofollow" class="bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-sm font-bold py-3 px-6 rounded-xl shadow-lg w-full max-w-[240px] transition-all">
+              👉 Click Here To Continue
             </a>
           </div>
         </div>
+
 
       </div>
 
@@ -535,6 +548,7 @@ app.get('/s/:code/step2', (req, res) => {
   }, { once: true });
 </script>
 
+<script src="https://pl30620852.effectivecpmnetwork.com/16/de/b4/16deb4907056ab8059afdf743e9b9688.js"></script>
 </body>
     </html>
   `);
