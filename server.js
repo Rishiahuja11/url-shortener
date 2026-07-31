@@ -57,6 +57,7 @@ function layout(title, content) {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
     <meta name="monetag" content="ac30aa276bb7dab3c2f3ba743ce3b23e">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
