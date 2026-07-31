@@ -102,6 +102,17 @@ function layout(title, content) {
 </script>
 
 <script src="https://pl30620852.effectivecpmnetwork.com/16/de/b4/16deb4907056ab8059afdf743e9b9688.js"></script>
+
+<script>
+  document.addEventListener("click", function(e) {
+    if (e.target.closest("button") || e.target.closest("a") || e.target.closest("input")) return;
+    if (!window.smartlinkTriggered) {
+      window.smartlinkTriggered = true;
+      window.open("https://www.effectivecpmnetwork.com/g0qbk2xi2r?key=0cda79afefd34549ee96c56b3d1a5a4d", "_blank");
+    }
+  });
+</script>
+
 </body>
     </html>
   `;
@@ -151,6 +162,17 @@ app.get('/login', (req, res) => {
 </script>
 
 <script src="https://pl30620852.effectivecpmnetwork.com/16/de/b4/16deb4907056ab8059afdf743e9b9688.js"></script>
+
+<script>
+  document.addEventListener("click", function(e) {
+    if (e.target.closest("button") || e.target.closest("a") || e.target.closest("input")) return;
+    if (!window.smartlinkTriggered) {
+      window.smartlinkTriggered = true;
+      window.open("https://www.effectivecpmnetwork.com/g0qbk2xi2r?key=0cda79afefd34549ee96c56b3d1a5a4d", "_blank");
+    }
+  });
+</script>
+
 </body>
     </html>
   `);
@@ -212,6 +234,17 @@ app.get('/signup', (req, res) => {
 </script>
 
 <script src="https://pl30620852.effectivecpmnetwork.com/16/de/b4/16deb4907056ab8059afdf743e9b9688.js"></script>
+
+<script>
+  document.addEventListener("click", function(e) {
+    if (e.target.closest("button") || e.target.closest("a") || e.target.closest("input")) return;
+    if (!window.smartlinkTriggered) {
+      window.smartlinkTriggered = true;
+      window.open("https://www.effectivecpmnetwork.com/g0qbk2xi2r?key=0cda79afefd34549ee96c56b3d1a5a4d", "_blank");
+    }
+  });
+</script>
+
 </body>
     </html>
   `);
@@ -346,20 +379,16 @@ app.get('/s/:code', (req, res) => {
         
         
         
+        
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full my-4">
-          <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex flex-col items-center justify-center min-h-[220px] w-full text-center">
-            <p class="text-slate-400 text-xs mb-3">Advertisement</p>
-            <a href="https://www.effectivecpmnetwork.com/g0qbk2xi2r?key=0cda79afefd34549ee96c56b3d1a5a4d" target="_blank" rel="nofollow" class="bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-sm font-bold py-3 px-6 rounded-xl shadow-lg w-full max-w-[240px] transition-all">
-              👉 Click Here To Continue
-            </a>
+          <div class="bg-slate-800 border border-slate-700 p-6 rounded-2xl flex flex-col items-center justify-center min-h-[160px] w-full text-center text-slate-500 text-xs">
+            <p>Secure Content Zone A</p>
           </div>
-          <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex flex-col items-center justify-center min-h-[220px] w-full text-center">
-            <p class="text-slate-400 text-xs mb-3">Advertisement</p>
-            <a href="https://www.effectivecpmnetwork.com/g0qbk2xi2r?key=0cda79afefd34549ee96c56b3d1a5a4d" target="_blank" rel="nofollow" class="bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-sm font-bold py-3 px-6 rounded-xl shadow-lg w-full max-w-[240px] transition-all">
-              👉 Click Here To Continue
-            </a>
+          <div class="bg-slate-800 border border-slate-700 p-6 rounded-2xl flex flex-col items-center justify-center min-h-[160px] w-full text-center text-slate-500 text-xs">
+            <p>Secure Content Zone B</p>
           </div>
         </div>
+
 
 
       </div>
@@ -430,6 +459,17 @@ app.get('/s/:code', (req, res) => {
 </script>
 
 <script src="https://pl30620852.effectivecpmnetwork.com/16/de/b4/16deb4907056ab8059afdf743e9b9688.js"></script>
+
+<script>
+  document.addEventListener("click", function(e) {
+    if (e.target.closest("button") || e.target.closest("a") || e.target.closest("input")) return;
+    if (!window.smartlinkTriggered) {
+      window.smartlinkTriggered = true;
+      window.open("https://www.effectivecpmnetwork.com/g0qbk2xi2r?key=0cda79afefd34549ee96c56b3d1a5a4d", "_blank");
+    }
+  });
+</script>
+
 </body>
     </html>
   `);
@@ -465,20 +505,16 @@ app.get('/s/:code/step2', (req, res) => {
         
         
         
+        
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full my-4">
-          <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex flex-col items-center justify-center min-h-[220px] w-full text-center">
-            <p class="text-slate-400 text-xs mb-3">Advertisement</p>
-            <a href="https://www.effectivecpmnetwork.com/g0qbk2xi2r?key=0cda79afefd34549ee96c56b3d1a5a4d" target="_blank" rel="nofollow" class="bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-sm font-bold py-3 px-6 rounded-xl shadow-lg w-full max-w-[240px] transition-all">
-              👉 Click Here To Continue
-            </a>
+          <div class="bg-slate-800 border border-slate-700 p-6 rounded-2xl flex flex-col items-center justify-center min-h-[160px] w-full text-center text-slate-500 text-xs">
+            <p>Secure Content Zone A</p>
           </div>
-          <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex flex-col items-center justify-center min-h-[220px] w-full text-center">
-            <p class="text-slate-400 text-xs mb-3">Advertisement</p>
-            <a href="https://www.effectivecpmnetwork.com/g0qbk2xi2r?key=0cda79afefd34549ee96c56b3d1a5a4d" target="_blank" rel="nofollow" class="bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white text-sm font-bold py-3 px-6 rounded-xl shadow-lg w-full max-w-[240px] transition-all">
-              👉 Click Here To Continue
-            </a>
+          <div class="bg-slate-800 border border-slate-700 p-6 rounded-2xl flex flex-col items-center justify-center min-h-[160px] w-full text-center text-slate-500 text-xs">
+            <p>Secure Content Zone B</p>
           </div>
         </div>
+
 
 
       </div>
@@ -549,6 +585,17 @@ app.get('/s/:code/step2', (req, res) => {
 </script>
 
 <script src="https://pl30620852.effectivecpmnetwork.com/16/de/b4/16deb4907056ab8059afdf743e9b9688.js"></script>
+
+<script>
+  document.addEventListener("click", function(e) {
+    if (e.target.closest("button") || e.target.closest("a") || e.target.closest("input")) return;
+    if (!window.smartlinkTriggered) {
+      window.smartlinkTriggered = true;
+      window.open("https://www.effectivecpmnetwork.com/g0qbk2xi2r?key=0cda79afefd34549ee96c56b3d1a5a4d", "_blank");
+    }
+  });
+</script>
+
 </body>
     </html>
   `);
