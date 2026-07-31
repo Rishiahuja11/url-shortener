@@ -36,6 +36,7 @@ async function seedAdmin() {
 seedAdmin();
 
 const app = express();
+app.get("/sw.js", (req, res) => res.sendFile(__dirname + "/sw.js"));
 app.use(express.static(__dirname));
 app.set('trust proxy', 1);
 
