@@ -289,14 +289,15 @@ app.get('/s/:code', (req, res) => {
           <p class="text-slate-400 text-sm">Please wait for the timer and scroll down to the bottom of the page to continue.</p>
         </div>
 
-        <div class="bg-slate-800 border border-dashed border-slate-700 p-8 rounded-2xl text-slate-500 font-medium">
-          [ Monetag Banner / Ad Slot 1 Placeholder ]
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 flex-grow w-full my-4">
+          <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px]">
+            <script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+          </div>
+          <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px]">
+            <script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+          </div>
         </div>
-
-        <div class="bg-slate-800/50 p-4 rounded-xl border border-slate-700 inline-block px-6">
-          <p class="text-sm text-slate-300">Time remaining: <span id="timer" class="font-bold text-indigo-400 text-lg">15</span>s</p>
-        </div>
-      </div>
 
       <div class="fixed bottom-0 left-0 w-full bg-slate-800/90 backdrop-blur border-t border-slate-700 p-4 text-center shadow-2xl">
         <button id="contBtn" disabled class="bg-slate-700 text-slate-400 cursor-not-allowed font-semibold px-8 py-3 rounded-xl transition shadow">
@@ -363,11 +364,13 @@ app.get('/s/:code/step2', (req, res) => {
 
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 flex-grow w-full my-4">
+          
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 flex-grow w-full my-4">
           <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px]">
-            <script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"><\/script>
+            <script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
           </div>
           <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px]">
-            <script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"><\/script>
+            <script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
           </div>
         </div>
 
