@@ -293,9 +293,14 @@ app.get('/s/:code', (req, res) => {
           <p class="text-base font-semibold text-white">Time remaining: <span id="timer" class="font-black text-indigo-400 text-2xl">15</span> seconds</p>
         </div>
 
+        
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full my-4">
-          <div id="ad-slot-1" class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px]"></div>
-          <div id="ad-slot-2" class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px]"></div>
+          <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px] overflow-hidden">
+            <script>(function(s){s.dataset.zone='11468375',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+          </div>
+          <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px] overflow-hidden">
+            <script>(function(s){s.dataset.zone='11468375',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+          </div>
         </div>
       </div>
 
@@ -381,9 +386,14 @@ app.get('/s/:code/step2', (req, res) => {
           <p class="text-base font-semibold text-white">Time remaining: <span id="timer" class="font-black text-emerald-400 text-2xl">10</span> seconds</p>
         </div>
 
+        
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full my-4">
-          <div id="ad-slot-3" class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px]"></div>
-          <div id="ad-slot-4" class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px]"></div>
+          <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px] overflow-hidden">
+            <script>(function(s){s.dataset.zone='11468375',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+          </div>
+          <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px] overflow-hidden">
+            <script>(function(s){s.dataset.zone='11468375',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+          </div>
         </div>
       </div>
 
