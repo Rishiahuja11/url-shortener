@@ -283,37 +283,23 @@ app.get('/s/:code', (req, res) => {
       <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col justify-between" style="height: 200vh;">
-      <div class="max-w-2xl mx-auto w-full p-6 pt-12 space-y-8 text-center">
+      <div class="max-w-2xl mx-auto w-full p-6 pt-12 space-y-6 text-center">
         <div class="bg-indigo-600/10 border border-indigo-500/20 p-6 rounded-2xl">
           <h2 class="text-2xl font-black text-indigo-400 mb-2">Step 1 of 2</h2>
-          <p class="text-slate-400 text-sm">Please wait for the timer and scroll down to the bottom of the page to continue.</p>
+          <p class="text-slate-300 text-sm">Please wait for the timer and scroll down to the bottom of the page to continue.</p>
         </div>
 
-        
-        
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 flex-grow w-full my-4">
+        <div class="bg-slate-800 p-4 rounded-xl border border-indigo-500/35 inline-block px-6 shadow-md">
+          <p class="text-base font-semibold text-white">Time remaining: <span id="timer" class="font-black text-indigo-400 text-2xl">15</span> seconds</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full my-4">
           <div id="ad-slot-1" class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px]"></div>
           <div id="ad-slot-2" class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px]"></div>
         </div>
-        <script>
-          function loadAds() {
-            [document.getElementById("ad-slot-1"), document.getElementById("ad-slot-2")].forEach(slot => {
-              if (slot && !slot.hasChildNodes()) {
-                const s = document.createElement("script");
-                s.src = "https://quge5.com/88/tag.min.js";
-                s.setAttribute("data-zone", "265635");
-                s.async = true;
-                s.setAttribute("data-cfasync", "false");
-                slot.appendChild(s);
-              }
-            });
-          }
-          window.addEventListener("DOMContentLoaded", loadAds);
-          setTimeout(loadAds, 500);
-        </script>
+      </div>
 
-      <div class="fixed bottom-0 left-0 w-full bg-slate-800/90 backdrop-blur border-t border-slate-700 p-4 text-center shadow-2xl">
+      <div class="fixed bottom-0 left-0 w-full bg-slate-800/90 backdrop-blur border-t border-slate-700 p-4 text-center shadow-2xl z-50">
         <button id="contBtn" disabled class="bg-slate-700 text-slate-400 cursor-not-allowed font-semibold px-8 py-3 rounded-xl transition shadow">
           Please scroll to bottom & wait...
         </button>
@@ -327,7 +313,7 @@ app.get('/s/:code', (req, res) => {
 
         let countdown = setInterval(() => {
           timeLeft--;
-          timerEl.innerText = timeLeft;
+          if (timerEl) timerEl.innerText = timeLeft;
           if (timeLeft <= 0) {
             clearInterval(countdown);
             checkReady();
@@ -349,6 +335,21 @@ app.get('/s/:code', (req, res) => {
             btn.onclick = () => { window.location.href = '/s/${req.params.code}/step2'; };
           }
         }
+
+        function loadAds() {
+          [document.getElementById('ad-slot-1'), document.getElementById('ad-slot-2')].forEach(slot => {
+            if (slot && !slot.hasChildNodes()) {
+              const s = document.createElement('script');
+              s.src = "https://quge5.com/88/tag.min.js";
+              s.setAttribute("data-zone", "265635");
+              s.async = true;
+              s.setAttribute("data-cfasync", "false");
+              slot.appendChild(s);
+            }
+          });
+        }
+        window.addEventListener('DOMContentLoaded', loadAds);
+        setTimeout(loadAds, 500);
       </script>
     </body>
     </html>
@@ -370,42 +371,23 @@ app.get('/s/:code/step2', (req, res) => {
       <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col justify-between" style="height: 200vh;">
-      <div class="max-w-2xl mx-auto w-full p-6 pt-12 space-y-8 text-center">
+      <div class="max-w-2xl mx-auto w-full p-6 pt-12 space-y-6 text-center">
         <div class="bg-emerald-600/10 border border-emerald-500/20 p-6 rounded-2xl">
           <h2 class="text-2xl font-black text-emerald-400 mb-2">Step 2 of 2</h2>
-          <p class="text-slate-400 text-sm">Almost there! Wait for the final timer and scroll to the bottom to get your link.</p>
+          <p class="text-slate-300 text-sm">Almost there! Wait for the final timer and scroll to the bottom to get your link.</p>
         </div>
 
-        
-        
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 flex-grow w-full my-4">
-          <div id="ad-slot-1" class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px]"></div>
-          <div id="ad-slot-2" class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px]"></div>
-        </div>
-        <script>
-          function loadAds() {
-            [document.getElementById("ad-slot-1"), document.getElementById("ad-slot-2")].forEach(slot => {
-              if (slot && !slot.hasChildNodes()) {
-                const s = document.createElement("script");
-                s.src = "https://quge5.com/88/tag.min.js";
-                s.setAttribute("data-zone", "265635");
-                s.async = true;
-                s.setAttribute("data-cfasync", "false");
-                slot.appendChild(s);
-              }
-            });
-          }
-          window.addEventListener("DOMContentLoaded", loadAds);
-          setTimeout(loadAds, 500);
-        </script>
-
-        <div class="bg-slate-800 p-4 rounded-xl border border-indigo-500/30 inline-block px-6 shadow-md">
+        <div class="bg-slate-800 p-4 rounded-xl border border-emerald-500/35 inline-block px-6 shadow-md">
           <p class="text-base font-semibold text-white">Time remaining: <span id="timer" class="font-black text-emerald-400 text-2xl">10</span> seconds</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full my-4">
+          <div id="ad-slot-3" class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px]"></div>
+          <div id="ad-slot-4" class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px]"></div>
         </div>
       </div>
 
-      <div class="fixed bottom-0 left-0 w-full bg-slate-800/90 backdrop-blur border-t border-slate-700 p-4 text-center shadow-2xl">
+      <div class="fixed bottom-0 left-0 w-full bg-slate-800/90 backdrop-blur border-t border-slate-700 p-4 text-center shadow-2xl z-50">
         <button id="getLinkBtn" disabled class="bg-slate-700 text-slate-400 cursor-not-allowed font-semibold px-8 py-3 rounded-xl transition shadow">
           Please scroll to bottom & wait...
         </button>
@@ -419,7 +401,7 @@ app.get('/s/:code/step2', (req, res) => {
 
         let countdown = setInterval(() => {
           timeLeft--;
-          timerEl.innerText = timeLeft;
+          if (timerEl) timerEl.innerText = timeLeft;
           if (timeLeft <= 0) {
             clearInterval(countdown);
             checkReady();
@@ -438,9 +420,24 @@ app.get('/s/:code/step2', (req, res) => {
             btn.disabled = false;
             btn.className = "bg-emerald-600 hover:bg-emerald-500 text-white font-semibold px-8 py-3 rounded-xl transition shadow-lg cursor-pointer";
             btn.innerText = "Get Link 🔗";
-            btn.onclick = () => { window.location.href = '/s/${req.params.code}/finalize'; }
+            btn.onclick = () => { window.location.href = '/s/${req.params.code}/finalize'; };
           }
         }
+
+        function loadAds() {
+          [document.getElementById('ad-slot-3'), document.getElementById('ad-slot-4')].forEach(slot => {
+            if (slot && !slot.hasChildNodes()) {
+              const s = document.createElement('script');
+              s.src = "https://quge5.com/88/tag.min.js";
+              s.setAttribute("data-zone", "265635");
+              s.async = true;
+              s.setAttribute("data-cfasync", "false");
+              slot.appendChild(s);
+            }
+          });
+        }
+        window.addEventListener('DOMContentLoaded', loadAds);
+        setTimeout(loadAds, 500);
       </script>
     </body>
     </html>
