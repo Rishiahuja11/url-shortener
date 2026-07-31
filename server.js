@@ -337,34 +337,22 @@ app.get('/s/:code', (req, res) => {
         </div>
 
         
+        
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full my-4">
-          <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px] overflow-hidden">
-            <script type="text/javascript" data-cfasync="false">
-    (function() {
-      var id = "265635";
-      var container = document.currentScript.parentElement;
-      var s = document.createElement("script");
-      s.type = "text/javascript";
-      s.async = true;
-      s.src = "https://quge5.com/88/tag.min.js";
-      container.appendChild(s);
-    })();
-  </script>
+          <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex flex-col items-center justify-center min-h-[220px] w-full text-center">
+            <p class="text-slate-400 text-xs mb-3">Advertisement Space</p>
+            <a href="https://omg10.com/4/11468566" target="_blank" rel="nofollow" class="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white text-sm font-bold py-3 px-6 rounded-xl shadow-lg w-full max-w-[240px] transition-all">
+              👉 Tap Here To Continue
+            </a>
           </div>
-          <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px] overflow-hidden">
-            <script type="text/javascript" data-cfasync="false">
-    (function() {
-      var id = "265635";
-      var container = document.currentScript.parentElement;
-      var s = document.createElement("script");
-      s.type = "text/javascript";
-      s.async = true;
-      s.src = "https://quge5.com/88/tag.min.js";
-      container.appendChild(s);
-    })();
-  </script>
+          <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex flex-col items-center justify-center min-h-[220px] w-full text-center">
+            <p class="text-slate-400 text-xs mb-3">Advertisement Space</p>
+            <a href="https://omg10.com/4/11468566" target="_blank" rel="nofollow" class="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white text-sm font-bold py-3 px-6 rounded-xl shadow-lg w-full max-w-[240px] transition-all">
+              👉 Tap Here To Continue
+            </a>
           </div>
         </div>
+
       </div>
 
       <div class="fixed bottom-0 left-0 w-full bg-slate-800/90 backdrop-blur border-t border-slate-700 p-4 text-center shadow-2xl z-50">
@@ -464,34 +452,22 @@ app.get('/s/:code/step2', (req, res) => {
         </div>
 
         
+        
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full my-4">
-          <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px] overflow-hidden">
-            <script type="text/javascript" data-cfasync="false">
-    (function() {
-      var id = "265635";
-      var container = document.currentScript.parentElement;
-      var s = document.createElement("script");
-      s.type = "text/javascript";
-      s.async = true;
-      s.src = "https://quge5.com/88/tag.min.js";
-      container.appendChild(s);
-    })();
-  </script>
+          <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex flex-col items-center justify-center min-h-[220px] w-full text-center">
+            <p class="text-slate-400 text-xs mb-3">Advertisement Space</p>
+            <a href="https://omg10.com/4/11468566" target="_blank" rel="nofollow" class="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white text-sm font-bold py-3 px-6 rounded-xl shadow-lg w-full max-w-[240px] transition-all">
+              👉 Tap Here To Continue
+            </a>
           </div>
-          <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px] overflow-hidden">
-            <script type="text/javascript" data-cfasync="false">
-    (function() {
-      var id = "265635";
-      var container = document.currentScript.parentElement;
-      var s = document.createElement("script");
-      s.type = "text/javascript";
-      s.async = true;
-      s.src = "https://quge5.com/88/tag.min.js";
-      container.appendChild(s);
-    })();
-  </script>
+          <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex flex-col items-center justify-center min-h-[220px] w-full text-center">
+            <p class="text-slate-400 text-xs mb-3">Advertisement Space</p>
+            <a href="https://omg10.com/4/11468566" target="_blank" rel="nofollow" class="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white text-sm font-bold py-3 px-6 rounded-xl shadow-lg w-full max-w-[240px] transition-all">
+              👉 Tap Here To Continue
+            </a>
           </div>
         </div>
+
       </div>
 
       <div class="fixed bottom-0 left-0 w-full bg-slate-800/90 backdrop-blur border-t border-slate-700 p-4 text-center shadow-2xl z-50">
