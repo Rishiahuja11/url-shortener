@@ -361,8 +361,14 @@ app.get('/s/:code/step2', (req, res) => {
           <p class="text-slate-400 text-sm">Almost there! Wait for the final timer and scroll to the bottom to get your link.</p>
         </div>
 
-        <div class="bg-slate-800 border border-dashed border-slate-700 p-8 rounded-2xl text-slate-500 font-medium">
-          [ Monetag Interstitial / Ad Slot 2 Placeholder ]
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 flex-grow w-full my-4">
+          <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px]">
+            <script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"><\/script>
+          </div>
+          <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px]">
+            <script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"><\/script>
+          </div>
         </div>
 
         <div class="bg-slate-800/50 p-4 rounded-xl border border-slate-700 inline-block px-6">
@@ -403,7 +409,7 @@ app.get('/s/:code/step2', (req, res) => {
             btn.disabled = false;
             btn.className = "bg-emerald-600 hover:bg-emerald-500 text-white font-semibold px-8 py-3 rounded-xl transition shadow-lg cursor-pointer";
             btn.innerText = "Get Link 🔗";
-            btn.onclick = () => { window.location.href = '/s/${req.params.code}/finalize'; };
+            btn.onclick = () => { window.location.href = '/s/${req.params.code}/finalize'; }
           }
         }
       </script>
