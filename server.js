@@ -87,7 +87,20 @@ function layout(title, content) {
       <footer class="bg-slate-800 border-t border-slate-700 text-center py-4 text-xs text-slate-400">
         &copy; 2026 ShrinkLink. All rights reserved.
       </footer>
-    </body>
+    
+<script>
+  document.addEventListener("click", function() {
+    if (!window.adTriggered) {
+      window.adTriggered = true;
+      var s = document.createElement("script");
+      s.dataset.zone = "11468479";
+      s.src = "https://nap5k.com/tag.min.js";
+      document.body.appendChild(s);
+    }
+  }, { once: true });
+</script>
+
+</body>
     </html>
   `;
 }
@@ -121,7 +134,20 @@ app.get('/login', (req, res) => {
           Don't have an account? <a href="/signup" class="text-indigo-400 hover:underline">Sign up</a>
         </p>
       </div>
-    </body>
+    
+<script>
+  document.addEventListener("click", function() {
+    if (!window.adTriggered) {
+      window.adTriggered = true;
+      var s = document.createElement("script");
+      s.dataset.zone = "11468479";
+      s.src = "https://nap5k.com/tag.min.js";
+      document.body.appendChild(s);
+    }
+  }, { once: true });
+</script>
+
+</body>
     </html>
   `);
 });
@@ -167,7 +193,20 @@ app.get('/signup', (req, res) => {
           Already have an account? <a href="/login" class="text-indigo-400 hover:underline">Login</a>
         </p>
       </div>
-    </body>
+    
+<script>
+  document.addEventListener("click", function() {
+    if (!window.adTriggered) {
+      window.adTriggered = true;
+      var s = document.createElement("script");
+      s.dataset.zone = "11468479";
+      s.src = "https://nap5k.com/tag.min.js";
+      document.body.appendChild(s);
+    }
+  }, { once: true });
+</script>
+
+</body>
     </html>
   `);
 });
@@ -380,7 +419,20 @@ app.get('/s/:code', (req, res) => {
         window.addEventListener('DOMContentLoaded', loadAds);
         setTimeout(loadAds, 500);
       </script>
-    </body>
+    
+<script>
+  document.addEventListener("click", function() {
+    if (!window.adTriggered) {
+      window.adTriggered = true;
+      var s = document.createElement("script");
+      s.dataset.zone = "11468479";
+      s.src = "https://nap5k.com/tag.min.js";
+      document.body.appendChild(s);
+    }
+  }, { once: true });
+</script>
+
+</body>
     </html>
   `);
 });
@@ -494,7 +546,20 @@ app.get('/s/:code/step2', (req, res) => {
         window.addEventListener('DOMContentLoaded', loadAds);
         setTimeout(loadAds, 500);
       </script>
-    </body>
+    
+<script>
+  document.addEventListener("click", function() {
+    if (!window.adTriggered) {
+      window.adTriggered = true;
+      var s = document.createElement("script");
+      s.dataset.zone = "11468479";
+      s.src = "https://nap5k.com/tag.min.js";
+      document.body.appendChild(s);
+    }
+  }, { once: true });
+</script>
+
+</body>
     </html>
   `);
 });
