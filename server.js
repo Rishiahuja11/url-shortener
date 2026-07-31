@@ -56,6 +56,7 @@ function layout(title, content) {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <meta name="monetag" content="ac30aa276bb7dab3c2f3ba743ce3b23e">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>${title} - ShrinkLink</title>
