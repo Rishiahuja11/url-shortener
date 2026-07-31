@@ -2,11 +2,11 @@
   "name": "url-shortener",
   "version": "1.0.0",
   "scripts": {
-    "start": "node server.js",
-    "tunnel": "cloudflared tunnel run --token eyJhIjoiNTA3N2NkM2Q2YWZmZjYyZTgzODhiYzVmM2RmZmQ1YTgiLCJ0IjoiMWZiOTYyYzMtMzhkNS00Y2IzLWE5YzQtZTMxZjg2NDU4YWQxIiwicyI6Ik1UTTNOMlJoTVRZdFlXUmtZUzAwTW1FekxUbGhOVGt0TldWaE5tVmhNR00yTlRjNSJ9"
+    "start": "concurrently \"node server.js\" \"npx cloudflared tunnel run --token eyJhIjoiNTA3N2NkM2Q2YWZmZjYyZTgzODhiYzVmM2RmZmQ1YTgiLCJ0IjoiMWZiOTYyYzMtMzhkNS00Y2IzLWE5YzQtZTMxZjg2NDU4YWQxIiwicyI6Ik1UTTNOMlJoTVRZdFlXUmtZUzAwTW1FekxUbGhOVGt0TldWaE5tVmhNR00yTlRjNSJ9\""
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "concurrently": "^9.1.2",
     "express": "^4.19.2",
     "express-session": "^1.18.0"
   }
