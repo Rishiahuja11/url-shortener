@@ -61,6 +61,7 @@ function layout(title, content) {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <script>(function(s){s.dataset.zone='11468479',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script'))))</script>
     <script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
     <meta name="monetag" content="ac30aa276bb7dab3c2f3ba743ce3b23e">
       <meta charset="UTF-8">
@@ -96,6 +97,7 @@ app.get('/login', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <script>(function(s){s.dataset.zone='11468479',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script'))))</script>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Login - ShrinkLink</title>
@@ -141,6 +143,7 @@ app.get('/signup', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <script>(function(s){s.dataset.zone='11468479',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script'))))</script>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Sign Up - ShrinkLink</title>
@@ -277,6 +280,7 @@ app.get('/s/:code', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <script>(function(s){s.dataset.zone='11468479',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script'))))</script>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Step 1 - Ad Gate</title>
@@ -390,6 +394,7 @@ app.get('/s/:code/step2', (req, res) => {
     <!DOCTYPE html>
     <html lang="en">
     <head>
+    <script>(function(s){s.dataset.zone='11468479',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script'))))</script>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Step 2 - Ad Gate</title>
