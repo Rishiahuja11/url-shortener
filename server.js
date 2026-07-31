@@ -296,10 +296,30 @@ app.get('/s/:code', (req, res) => {
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full my-4">
           <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px] overflow-hidden">
-            <script>(function(s){s.dataset.zone='11468375',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+            <script type="text/javascript" data-cfasync="false">
+    (function() {
+      var id = "265635";
+      var container = document.currentScript.parentElement;
+      var s = document.createElement("script");
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = "https://quge5.com/88/tag.min.js";
+      container.appendChild(s);
+    })();
+  </script>
           </div>
           <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px] overflow-hidden">
-            <script>(function(s){s.dataset.zone='11468375',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+            <script type="text/javascript" data-cfasync="false">
+    (function() {
+      var id = "265635";
+      var container = document.currentScript.parentElement;
+      var s = document.createElement("script");
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = "https://quge5.com/88/tag.min.js";
+      container.appendChild(s);
+    })();
+  </script>
           </div>
         </div>
       </div>
@@ -389,10 +409,30 @@ app.get('/s/:code/step2', (req, res) => {
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full my-4">
           <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px] overflow-hidden">
-            <script>(function(s){s.dataset.zone='11468375',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+            <script type="text/javascript" data-cfasync="false">
+    (function() {
+      var id = "265635";
+      var container = document.currentScript.parentElement;
+      var s = document.createElement("script");
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = "https://quge5.com/88/tag.min.js";
+      container.appendChild(s);
+    })();
+  </script>
           </div>
           <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px] overflow-hidden">
-            <script>(function(s){s.dataset.zone='11468375',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+            <script type="text/javascript" data-cfasync="false">
+    (function() {
+      var id = "265635";
+      var container = document.currentScript.parentElement;
+      var s = document.createElement("script");
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = "https://quge5.com/88/tag.min.js";
+      container.appendChild(s);
+    })();
+  </script>
           </div>
         </div>
       </div>
