@@ -290,12 +290,13 @@ app.get('/s/:code', (req, res) => {
         </div>
 
         
+        
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 flex-grow w-full my-4">
           <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px]">
-            <script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+            <script async src="https://quge5.com/88/tag.min.js" data-zone="265635" data-cfasync="false"></script>
           </div>
           <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px]">
-            <script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+            <script async src="https://quge5.com/88/tag.min.js" data-zone="265635" data-cfasync="false"></script>
           </div>
         </div>
 
@@ -363,14 +364,13 @@ app.get('/s/:code/step2', (req, res) => {
         </div>
 
         
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 flex-grow w-full my-4">
-          
+        
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 flex-grow w-full my-4">
           <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px]">
-            <script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+            <script async src="https://quge5.com/88/tag.min.js" data-zone="265635" data-cfasync="false"></script>
           </div>
           <div class="bg-slate-800 border border-slate-700 p-4 rounded-2xl flex items-center justify-center min-h-[250px]">
-            <script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+            <script async src="https://quge5.com/88/tag.min.js" data-zone="265635" data-cfasync="false"></script>
           </div>
         </div>
 
