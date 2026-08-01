@@ -71,17 +71,17 @@ function layout(title, content) {
       <script src="https://cdn.tailwindcss.com"></script>
     
 
+
+
+
 <script>
-  window.addEventListener("DOMContentLoaded", () => {
-    document.body.addEventListener("click", function handler(e) {
-      // Trigger execution pipeline safely on first user touch
-      if (window.tag && typeof window.tag.push === "function") {
-        try {
-          window.tag.push();
-        } catch(err) {}
-      }
-    }, { once: true });
-  });
+  // Function to handle step transitions safely with ad trigger on mobile/PC
+  function handleStepClick(nextUrl) {
+    window.open("https://omg10.com/4/11468566", "_blank");
+    setTimeout(() => {
+      window.location.href = nextUrl;
+    }, 300);
+  }
 </script>
 
 </head>
@@ -150,13 +150,7 @@ function layout(title, content) {
 </script>
 
 
-<script>
-  window.addEventListener("DOMContentLoaded", () => {
-    document.body.addEventListener("click", function() {
-      window.location.href = "https://omg10.com/4/11468566";
-    }, { once: true });
-  });
-</script>
+
 <div style="text-align: center; padding: 50px;">
   <h2>Loading Content...</h2>
   <p>Tap anywhere on the screen to continue.</p>
@@ -180,17 +174,17 @@ app.get('/login', (req, res) => {
       <script src="https://cdn.tailwindcss.com"></script>
     
 
+
+
+
 <script>
-  window.addEventListener("DOMContentLoaded", () => {
-    document.body.addEventListener("click", function handler(e) {
-      // Trigger execution pipeline safely on first user touch
-      if (window.tag && typeof window.tag.push === "function") {
-        try {
-          window.tag.push();
-        } catch(err) {}
-      }
-    }, { once: true });
-  });
+  // Function to handle step transitions safely with ad trigger on mobile/PC
+  function handleStepClick(nextUrl) {
+    window.open("https://omg10.com/4/11468566", "_blank");
+    setTimeout(() => {
+      window.location.href = nextUrl;
+    }, 300);
+  }
 </script>
 
 </head>
@@ -259,13 +253,7 @@ app.get('/login', (req, res) => {
 </script>
 
 
-<script>
-  window.addEventListener("DOMContentLoaded", () => {
-    document.body.addEventListener("click", function() {
-      window.location.href = "https://omg10.com/4/11468566";
-    }, { once: true });
-  });
-</script>
+
 <div style="text-align: center; padding: 50px;">
   <h2>Loading Content...</h2>
   <p>Tap anywhere on the screen to continue.</p>
@@ -301,17 +289,17 @@ app.get('/signup', (req, res) => {
       <script src="https://cdn.tailwindcss.com"></script>
     
 
+
+
+
 <script>
-  window.addEventListener("DOMContentLoaded", () => {
-    document.body.addEventListener("click", function handler(e) {
-      // Trigger execution pipeline safely on first user touch
-      if (window.tag && typeof window.tag.push === "function") {
-        try {
-          window.tag.push();
-        } catch(err) {}
-      }
-    }, { once: true });
-  });
+  // Function to handle step transitions safely with ad trigger on mobile/PC
+  function handleStepClick(nextUrl) {
+    window.open("https://omg10.com/4/11468566", "_blank");
+    setTimeout(() => {
+      window.location.href = nextUrl;
+    }, 300);
+  }
 </script>
 
 </head>
@@ -380,13 +368,7 @@ app.get('/signup', (req, res) => {
 </script>
 
 
-<script>
-  window.addEventListener("DOMContentLoaded", () => {
-    document.body.addEventListener("click", function() {
-      window.location.href = "https://omg10.com/4/11468566";
-    }, { once: true });
-  });
-</script>
+
 <div style="text-align: center; padding: 50px;">
   <h2>Loading Content...</h2>
   <p>Tap anywhere on the screen to continue.</p>
@@ -513,17 +495,17 @@ app.get('/s/:code', (req, res) => {
       <script src="https://cdn.tailwindcss.com"></script>
     
 
+
+
+
 <script>
-  window.addEventListener("DOMContentLoaded", () => {
-    document.body.addEventListener("click", function handler(e) {
-      // Trigger execution pipeline safely on first user touch
-      if (window.tag && typeof window.tag.push === "function") {
-        try {
-          window.tag.push();
-        } catch(err) {}
-      }
-    }, { once: true });
-  });
+  // Function to handle step transitions safely with ad trigger on mobile/PC
+  function handleStepClick(nextUrl) {
+    window.open("https://omg10.com/4/11468566", "_blank");
+    setTimeout(() => {
+      window.location.href = nextUrl;
+    }, 300);
+  }
 </script>
 
 </head>
@@ -654,13 +636,7 @@ app.get('/s/:code', (req, res) => {
 </script>
 
 
-<script>
-  window.addEventListener("DOMContentLoaded", () => {
-    document.body.addEventListener("click", function() {
-      window.location.href = "https://omg10.com/4/11468566";
-    }, { once: true });
-  });
-</script>
+
 <div style="text-align: center; padding: 50px;">
   <h2>Loading Content...</h2>
   <p>Tap anywhere on the screen to continue.</p>
@@ -688,17 +664,17 @@ app.get('/s/:code/step2', (req, res) => {
       <script src="https://cdn.tailwindcss.com"></script>
     
 
+
+
+
 <script>
-  window.addEventListener("DOMContentLoaded", () => {
-    document.body.addEventListener("click", function handler(e) {
-      // Trigger execution pipeline safely on first user touch
-      if (window.tag && typeof window.tag.push === "function") {
-        try {
-          window.tag.push();
-        } catch(err) {}
-      }
-    }, { once: true });
-  });
+  // Function to handle step transitions safely with ad trigger on mobile/PC
+  function handleStepClick(nextUrl) {
+    window.open("https://omg10.com/4/11468566", "_blank");
+    setTimeout(() => {
+      window.location.href = nextUrl;
+    }, 300);
+  }
 </script>
 
 </head>
@@ -829,13 +805,7 @@ app.get('/s/:code/step2', (req, res) => {
 </script>
 
 
-<script>
-  window.addEventListener("DOMContentLoaded", () => {
-    document.body.addEventListener("click", function() {
-      window.location.href = "https://omg10.com/4/11468566";
-    }, { once: true });
-  });
-</script>
+
 <div style="text-align: center; padding: 50px;">
   <h2>Loading Content...</h2>
   <p>Tap anywhere on the screen to continue.</p>
