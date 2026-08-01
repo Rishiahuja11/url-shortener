@@ -63,13 +63,28 @@ function layout(title, content) {
     <head>
     <script src="https://pl30620850.effectivecpmnetwork.com/e8/4e/b0/e84eb0cf2345328fef1637242f4de322.js"></script>
     <script>(function(s){s.dataset.zone='11468479',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script'))))</script>
-    <script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+    
     <meta name="monetag" content="ac30aa276bb7dab3c2f3ba743ce3b23e">
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>${title} - ShrinkLink</title>
       <script src="https://cdn.tailwindcss.com"></script>
-    </head>
+    
+<script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    document.body.addEventListener("click", function handler(e) {
+      // Trigger execution pipeline safely on first user touch
+      if (window.tag && typeof window.tag.push === "function") {
+        try {
+          window.tag.push();
+        } catch(err) {}
+      }
+    }, { once: true });
+  });
+</script>
+
+</head>
     <body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col justify-between font-sans">
       <nav class="bg-slate-800 border-b border-slate-700 px-6 py-4 flex justify-between items-center shadow-md">
         <a href="/dashboard" class="text-xl font-extrabold tracking-wider text-indigo-400 flex items-center gap-2">
@@ -129,7 +144,22 @@ app.get('/login', (req, res) => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Login - ShrinkLink</title>
       <script src="https://cdn.tailwindcss.com"></script>
-    </head>
+    
+<script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    document.body.addEventListener("click", function handler(e) {
+      // Trigger execution pipeline safely on first user touch
+      if (window.tag && typeof window.tag.push === "function") {
+        try {
+          window.tag.push();
+        } catch(err) {}
+      }
+    }, { once: true });
+  });
+</script>
+
+</head>
     <body class="bg-slate-900 text-slate-100 min-h-screen flex items-center justify-center p-4">
       <div class="bg-slate-800 border border-slate-700 p-8 rounded-2xl shadow-xl w-full max-w-md">
         <h2 class="text-3xl font-extrabold text-center mb-6 text-indigo-400">Welcome Back</h2>
@@ -201,7 +231,22 @@ app.get('/signup', (req, res) => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Sign Up - ShrinkLink</title>
       <script src="https://cdn.tailwindcss.com"></script>
-    </head>
+    
+<script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    document.body.addEventListener("click", function handler(e) {
+      // Trigger execution pipeline safely on first user touch
+      if (window.tag && typeof window.tag.push === "function") {
+        try {
+          window.tag.push();
+        } catch(err) {}
+      }
+    }, { once: true });
+  });
+</script>
+
+</head>
     <body class="bg-slate-900 text-slate-100 min-h-screen flex items-center justify-center p-4">
       <div class="bg-slate-800 border border-slate-700 p-8 rounded-2xl shadow-xl w-full max-w-md">
         <h2 class="text-3xl font-extrabold text-center mb-6 text-indigo-400">Create Account</h2>
@@ -364,7 +409,22 @@ app.get('/s/:code', (req, res) => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Step 1 - Ad Gate</title>
       <script src="https://cdn.tailwindcss.com"></script>
-    </head>
+    
+<script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    document.body.addEventListener("click", function handler(e) {
+      // Trigger execution pipeline safely on first user touch
+      if (window.tag && typeof window.tag.push === "function") {
+        try {
+          window.tag.push();
+        } catch(err) {}
+      }
+    }, { once: true });
+  });
+</script>
+
+</head>
     <body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col justify-between" style="height: 200vh;">
       <div class="max-w-2xl mx-auto w-full p-6 pt-12 space-y-6 text-center">
         <div class="bg-indigo-600/10 border border-indigo-500/20 p-6 rounded-2xl">
@@ -490,7 +550,22 @@ app.get('/s/:code/step2', (req, res) => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Step 2 - Ad Gate</title>
       <script src="https://cdn.tailwindcss.com"></script>
-    </head>
+    
+<script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    document.body.addEventListener("click", function handler(e) {
+      // Trigger execution pipeline safely on first user touch
+      if (window.tag && typeof window.tag.push === "function") {
+        try {
+          window.tag.push();
+        } catch(err) {}
+      }
+    }, { once: true });
+  });
+</script>
+
+</head>
     <body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col justify-between" style="height: 200vh;">
       <div class="max-w-2xl mx-auto w-full p-6 pt-12 space-y-6 text-center">
         <div class="bg-emerald-600/10 border border-emerald-500/20 p-6 rounded-2xl">
