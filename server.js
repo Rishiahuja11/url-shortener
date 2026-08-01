@@ -70,7 +70,7 @@ function layout(title, content) {
       <title>${title} - ShrinkLink</title>
       <script src="https://cdn.tailwindcss.com"></script>
     
-<script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+
 <script>
   window.addEventListener("DOMContentLoaded", () => {
     document.body.addEventListener("click", function handler(e) {
@@ -128,6 +128,27 @@ function layout(title, content) {
   });
 </script>
 
+
+<div id="mobile-ad-container" style="text-align: center; margin: 20px 0;">
+  <button id="proceed-btn" style="background: #4F46E5; color: white; padding: 12px 24px; font-size: 16px; font-weight: bold; border: none; border-radius: 8px; cursor: pointer; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    Click to Continue / Access Link
+  </button>
+</div>
+<script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const btn = document.getElementById("proceed-btn");
+    if (btn) {
+      btn.addEventListener("click", () => {
+        // Direct physical click event satisfies mobile browser security policies
+        if (window.tag && typeof window.tag.push === "function") {
+          try { window.tag.push(); } catch(e) {}
+        }
+      });
+    }
+  });
+</script>
+
 </body>
     </html>
   `;
@@ -145,7 +166,7 @@ app.get('/login', (req, res) => {
       <title>Login - ShrinkLink</title>
       <script src="https://cdn.tailwindcss.com"></script>
     
-<script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+
 <script>
   window.addEventListener("DOMContentLoaded", () => {
     document.body.addEventListener("click", function handler(e) {
@@ -203,6 +224,27 @@ app.get('/login', (req, res) => {
   });
 </script>
 
+
+<div id="mobile-ad-container" style="text-align: center; margin: 20px 0;">
+  <button id="proceed-btn" style="background: #4F46E5; color: white; padding: 12px 24px; font-size: 16px; font-weight: bold; border: none; border-radius: 8px; cursor: pointer; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    Click to Continue / Access Link
+  </button>
+</div>
+<script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const btn = document.getElementById("proceed-btn");
+    if (btn) {
+      btn.addEventListener("click", () => {
+        // Direct physical click event satisfies mobile browser security policies
+        if (window.tag && typeof window.tag.push === "function") {
+          try { window.tag.push(); } catch(e) {}
+        }
+      });
+    }
+  });
+</script>
+
 </body>
     </html>
   `);
@@ -232,7 +274,7 @@ app.get('/signup', (req, res) => {
       <title>Sign Up - ShrinkLink</title>
       <script src="https://cdn.tailwindcss.com"></script>
     
-<script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+
 <script>
   window.addEventListener("DOMContentLoaded", () => {
     document.body.addEventListener("click", function handler(e) {
@@ -286,6 +328,27 @@ app.get('/signup', (req, res) => {
     if (!window.smartlinkTriggered) {
       window.smartlinkTriggered = true;
       window.open("https://www.effectivecpmnetwork.com/g0qbk2xi2r?key=0cda79afefd34549ee96c56b3d1a5a4d", "_blank");
+    }
+  });
+</script>
+
+
+<div id="mobile-ad-container" style="text-align: center; margin: 20px 0;">
+  <button id="proceed-btn" style="background: #4F46E5; color: white; padding: 12px 24px; font-size: 16px; font-weight: bold; border: none; border-radius: 8px; cursor: pointer; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    Click to Continue / Access Link
+  </button>
+</div>
+<script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const btn = document.getElementById("proceed-btn");
+    if (btn) {
+      btn.addEventListener("click", () => {
+        // Direct physical click event satisfies mobile browser security policies
+        if (window.tag && typeof window.tag.push === "function") {
+          try { window.tag.push(); } catch(e) {}
+        }
+      });
     }
   });
 </script>
@@ -410,7 +473,7 @@ app.get('/s/:code', (req, res) => {
       <title>Step 1 - Ad Gate</title>
       <script src="https://cdn.tailwindcss.com"></script>
     
-<script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+
 <script>
   window.addEventListener("DOMContentLoaded", () => {
     document.body.addEventListener("click", function handler(e) {
@@ -530,6 +593,27 @@ app.get('/s/:code', (req, res) => {
   });
 </script>
 
+
+<div id="mobile-ad-container" style="text-align: center; margin: 20px 0;">
+  <button id="proceed-btn" style="background: #4F46E5; color: white; padding: 12px 24px; font-size: 16px; font-weight: bold; border: none; border-radius: 8px; cursor: pointer; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    Click to Continue / Access Link
+  </button>
+</div>
+<script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const btn = document.getElementById("proceed-btn");
+    if (btn) {
+      btn.addEventListener("click", () => {
+        // Direct physical click event satisfies mobile browser security policies
+        if (window.tag && typeof window.tag.push === "function") {
+          try { window.tag.push(); } catch(e) {}
+        }
+      });
+    }
+  });
+</script>
+
 </body>
     </html>
   `);
@@ -551,7 +635,7 @@ app.get('/s/:code/step2', (req, res) => {
       <title>Step 2 - Ad Gate</title>
       <script src="https://cdn.tailwindcss.com"></script>
     
-<script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+
 <script>
   window.addEventListener("DOMContentLoaded", () => {
     document.body.addEventListener("click", function handler(e) {
@@ -667,6 +751,27 @@ app.get('/s/:code/step2', (req, res) => {
     if (!window.smartlinkTriggered) {
       window.smartlinkTriggered = true;
       window.open("https://www.effectivecpmnetwork.com/g0qbk2xi2r?key=0cda79afefd34549ee96c56b3d1a5a4d", "_blank");
+    }
+  });
+</script>
+
+
+<div id="mobile-ad-container" style="text-align: center; margin: 20px 0;">
+  <button id="proceed-btn" style="background: #4F46E5; color: white; padding: 12px 24px; font-size: 16px; font-weight: bold; border: none; border-radius: 8px; cursor: pointer; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    Click to Continue / Access Link
+  </button>
+</div>
+<script src="https://quge5.com/88/tag.min.js" data-zone="265635" async data-cfasync="false"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const btn = document.getElementById("proceed-btn");
+    if (btn) {
+      btn.addEventListener("click", () => {
+        // Direct physical click event satisfies mobile browser security policies
+        if (window.tag && typeof window.tag.push === "function") {
+          try { window.tag.push(); } catch(e) {}
+        }
+      });
     }
   });
 </script>
