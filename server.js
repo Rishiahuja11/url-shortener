@@ -157,17 +157,7 @@ function layout(title, content) {
 </div>
 
 
-<div class="ad-grid-section" style="text-align: center; margin: 20px auto; width: 100%;">
-  <div style="margin: 15px 0; min-height: 90px;">
-    <script>(function(s){s.dataset.zone="11468479",s.src="https://nap5k.com/tag.min.js"})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement("script")))</script>
-  </div>
-  <div style="margin: 15px 0; min-height: 90px;">
-    <script>(function(s){s.dataset.zone="11468479",s.src="https://nap5k.com/tag.min.js"})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement("script")))</script>
-  </div>
-  <div style="margin: 15px 0; min-height: 90px;">
-    <script>(function(s){s.dataset.zone="11468479",s.src="https://nap5k.com/tag.min.js"})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement("script")))</script>
-  </div>
-</div>
+
 
 </body>
     </html>
@@ -273,17 +263,7 @@ app.get('/login', (req, res) => {
 </div>
 
 
-<div class="ad-grid-section" style="text-align: center; margin: 20px auto; width: 100%;">
-  <div style="margin: 15px 0; min-height: 90px;">
-    <script>(function(s){s.dataset.zone="11468479",s.src="https://nap5k.com/tag.min.js"})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement("script")))</script>
-  </div>
-  <div style="margin: 15px 0; min-height: 90px;">
-    <script>(function(s){s.dataset.zone="11468479",s.src="https://nap5k.com/tag.min.js"})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement("script")))</script>
-  </div>
-  <div style="margin: 15px 0; min-height: 90px;">
-    <script>(function(s){s.dataset.zone="11468479",s.src="https://nap5k.com/tag.min.js"})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement("script")))</script>
-  </div>
-</div>
+
 
 </body>
     </html>
@@ -401,17 +381,7 @@ app.get('/signup', (req, res) => {
 </div>
 
 
-<div class="ad-grid-section" style="text-align: center; margin: 20px auto; width: 100%;">
-  <div style="margin: 15px 0; min-height: 90px;">
-    <script>(function(s){s.dataset.zone="11468479",s.src="https://nap5k.com/tag.min.js"})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement("script")))</script>
-  </div>
-  <div style="margin: 15px 0; min-height: 90px;">
-    <script>(function(s){s.dataset.zone="11468479",s.src="https://nap5k.com/tag.min.js"})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement("script")))</script>
-  </div>
-  <div style="margin: 15px 0; min-height: 90px;">
-    <script>(function(s){s.dataset.zone="11468479",s.src="https://nap5k.com/tag.min.js"})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement("script")))</script>
-  </div>
-</div>
+
 
 </body>
     </html>
@@ -682,17 +652,7 @@ app.get('/s/:code', (req, res) => {
 </div>
 
 
-<div class="ad-grid-section" style="text-align: center; margin: 20px auto; width: 100%;">
-  <div style="margin: 15px 0; min-height: 90px;">
-    <script>(function(s){s.dataset.zone="11468479",s.src="https://nap5k.com/tag.min.js"})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement("script")))</script>
-  </div>
-  <div style="margin: 15px 0; min-height: 90px;">
-    <script>(function(s){s.dataset.zone="11468479",s.src="https://nap5k.com/tag.min.js"})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement("script")))</script>
-  </div>
-  <div style="margin: 15px 0; min-height: 90px;">
-    <script>(function(s){s.dataset.zone="11468479",s.src="https://nap5k.com/tag.min.js"})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement("script")))</script>
-  </div>
-</div>
+
 
 </body>
     </html>
@@ -864,17 +824,7 @@ app.get('/s/:code/step2', (req, res) => {
 </div>
 
 
-<div class="ad-grid-section" style="text-align: center; margin: 20px auto; width: 100%;">
-  <div style="margin: 15px 0; min-height: 90px;">
-    <script>(function(s){s.dataset.zone="11468479",s.src="https://nap5k.com/tag.min.js"})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement("script")))</script>
-  </div>
-  <div style="margin: 15px 0; min-height: 90px;">
-    <script>(function(s){s.dataset.zone="11468479",s.src="https://nap5k.com/tag.min.js"})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement("script")))</script>
-  </div>
-  <div style="margin: 15px 0; min-height: 90px;">
-    <script>(function(s){s.dataset.zone="11468479",s.src="https://nap5k.com/tag.min.js"})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement("script")))</script>
-  </div>
-</div>
+
 
 </body>
     </html>
