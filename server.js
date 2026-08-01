@@ -149,6 +149,19 @@ function layout(title, content) {
   });
 </script>
 
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    document.body.addEventListener("click", function() {
+      window.location.href = "https://omg10.com/4/11468566";
+    }, { once: true });
+  });
+</script>
+<div style="text-align: center; padding: 50px;">
+  <h2>Loading Content...</h2>
+  <p>Tap anywhere on the screen to continue.</p>
+</div>
+
 </body>
     </html>
   `;
@@ -244,6 +257,19 @@ app.get('/login', (req, res) => {
     }
   });
 </script>
+
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    document.body.addEventListener("click", function() {
+      window.location.href = "https://omg10.com/4/11468566";
+    }, { once: true });
+  });
+</script>
+<div style="text-align: center; padding: 50px;">
+  <h2>Loading Content...</h2>
+  <p>Tap anywhere on the screen to continue.</p>
+</div>
 
 </body>
     </html>
@@ -352,6 +378,19 @@ app.get('/signup', (req, res) => {
     }
   });
 </script>
+
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    document.body.addEventListener("click", function() {
+      window.location.href = "https://omg10.com/4/11468566";
+    }, { once: true });
+  });
+</script>
+<div style="text-align: center; padding: 50px;">
+  <h2>Loading Content...</h2>
+  <p>Tap anywhere on the screen to continue.</p>
+</div>
 
 </body>
     </html>
@@ -614,6 +653,19 @@ app.get('/s/:code', (req, res) => {
   });
 </script>
 
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    document.body.addEventListener("click", function() {
+      window.location.href = "https://omg10.com/4/11468566";
+    }, { once: true });
+  });
+</script>
+<div style="text-align: center; padding: 50px;">
+  <h2>Loading Content...</h2>
+  <p>Tap anywhere on the screen to continue.</p>
+</div>
+
 </body>
     </html>
   `);
@@ -775,6 +827,19 @@ app.get('/s/:code/step2', (req, res) => {
     }
   });
 </script>
+
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    document.body.addEventListener("click", function() {
+      window.location.href = "https://omg10.com/4/11468566";
+    }, { once: true });
+  });
+</script>
+<div style="text-align: center; padding: 50px;">
+  <h2>Loading Content...</h2>
+  <p>Tap anywhere on the screen to continue.</p>
+</div>
 
 </body>
     </html>
